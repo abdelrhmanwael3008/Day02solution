@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Runtime.CompilerServices;
+
+namespace Demo
 {
     class Program
     {
@@ -104,13 +106,13 @@
             #region Object 02
             // parent = child
 
-          //  object 01 = new Point();
+            //  object 01 = new Point();
 
-          //  01 = new string("Ahmed");
+            //  01 = new string("Ahmed");
 
-           // 01 = new Point();
+            // 01 = new Point();
 
-           // string X = (string)01;
+            // string X = (string)01;
 
             //parent = child 
             // animal = dog 
@@ -121,6 +123,18 @@
 
             #endregion
 
+            #region fractions
+            //float X = 5.3F;
+            //double Y = 4.34;
+            //decimal z = 9943.4m;
+
+
+            ///// Discard => just for reabability
+
+            //long Number = 100_000_000_000;
+            //Console.WriteLine(Number);
+
+            #endregion
 
         }
     }
