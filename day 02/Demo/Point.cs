@@ -10,5 +10,10 @@ namespace Demo
     {
         public int x; //4 bytes
         public int y; //4 bytes
+
+        public override string ToString()
+        {
+            return $"{x},{y}";
+        }
     }
 }
