@@ -230,6 +230,86 @@ namespace Demo
 
             #endregion
 
+            #region try parse
+
+            //string x = "Ahmed";
+
+            //    int y;
+            //bool flag =int.TryParse(x, out y); //if casting failed no exception will be thrown
+
+
+            //Console.WriteLine(flag); //fulse
+            //Console.WriteLine(y); //0
+            #endregion
+
+            #region unary opreators
+
+            ///unary operators => works on one operand (variable)
+            ///int x = 10;
+            ///
+            ///1. ++ 
+
+            ///1.1 prefix [increment and then print ]
+            ///Console.WriteLine(x++); // print 10
+            ///1.2 postfix [print and then increment]
+            ///Console.WriteLine(x++); //print 10 
+            ///
+            ///.2 
+            ///
+            ////2.1 perfix [decrement and then print ]
+            ///Console.WriteLine(--x); // print 9
+            ///2.2 postfix [print and then decrement]
+            ///Console.WriteLine(x--);//print 10
+
+            #endregion
+
+            #region assigment operator
+
+            //int x;
+            //x = 4;
+            //x += 2; // x = x + 2
+            //x -= 2; // x = x - 2
+            //x *= 2; // x = x * 2
+            //x /= 2; // x = x / 2
+            //x %= 2; // x = x % 2
+            #endregion
+
+            #region logical operators
+            //int x = 6, y = 5;
+
+            //Console.WriteLine(x == y); //equal
+            //Console.WriteLine(x != y); // not equal
+            //Console.WriteLine(x > y); //more than
+            //Console.WriteLine(x >= y); //more than or equal
+            //Console.WriteLine(x < y); //less than
+            //Console.WriteLine(x <= y); //less than or equal
+
+            #endregion
+
+            #region bitwise operators 
+
+            //Console.WriteLine(!false);
+
+            //Console.WriteLine(false && true);//short circuit
+
+            //Console.WriteLine(true || false);
+
+            //Console.WriteLine(4 < 5 && 7 < 9);
+            #endregion
+
+            #region teranry operator 
+
+            //int x = 10, y = 5;
+            //string message;
+            //if (x > y)
+            //{
+            //    message = "x is more than y ";
+            //}
+            //else if (x < y)
+            //{
+            //    message = "x is less than y ";
+            //}
+            #endregion
         }
     }
 }
