@@ -343,6 +343,22 @@ namespace Demo
             #endregion
 
 
+            #region string formatting
+
+            //equation : 3 + 4 =  7
+            //int x = 3, y = 4;
+            //string message = "equation: " + x + " + " + y + " = " + (x + y);
+
+            ////1. compsite frmatting 
+            //message = string.Format("equantion: {0} + {1} = {2}", x, y, (x + y));
+            ////2.string interpolation
+            //// $ : manpution operator 
+
+            ////message = `equation" %{x} + {y] = ${x+y}`
+            //Console.WriteLine(message);
+            #endregion
+
+
 
         }
     }
