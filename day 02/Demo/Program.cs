@@ -310,6 +310,40 @@ namespace Demo
             //    message = "x is less than y ";
             //}
             #endregion
+
+
+
+            #region operators prioty [precednce] and asscoitivaity
+
+            /*
+             * 1. unary operators (prefix)
+             * 2. round baraces()
+             * 3. * / %
+             * 4. + - 
+             */
+            //  int Equation = 4 + 3 * 8;
+            //   Console.WriteLine(Equation); // 28
+
+
+            //int a = 20;
+            //int b = 10;
+            //int c = 15;
+            //int d = 5;
+            //int equation;
+
+
+            //equation = (a + b) * c / d; // (30 * 15 )/5
+
+            //equation = ((a + b) * c) / d; //(30 * 15)/5
+
+
+            //equation = (a + b) * (c / d); //(30*15) /5 
+
+            //equation = a + (b + c / d); //20 + 150/5 
+            #endregion
+
+
+
         }
     }
 }
