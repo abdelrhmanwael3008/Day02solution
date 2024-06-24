@@ -169,6 +169,67 @@ namespace Demo
 
             #endregion
 
+            #region parse and convert
+            #region convert
+
+            //** convert is a class containting set of used of methods used for casting from datatype to anouther**/
+
+            //Console.Write("please enter your name: ");
+            //string name = Console.ReadLine()?? "na";
+
+
+            //Console.Write("please enter your age: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("please enter your salary: ");
+            //decimal salary =Convert.ToDecimal(Console.ReadLine());
+
+            //Console.Clear();
+            //Console.Beep(324, 1000);
+
+            //Console.WriteLine("enter name is" + name);
+            //Console.WriteLine("your age is " +age);
+            //Console.WriteLine("your salary is "+ salary);
+
+            #endregion
+
+            #region parse 
+
+            //parse : is a method used for casting from string to the caller datatype 
+
+            //Console.Write("please enter your name: ");
+            //string name = Console.ReadLine()?? "na";
+
+
+            //Console.Write("please enter your age: ");
+            //int age = int.Parse(Console.ReadLine()?? "0");
+
+            //Console.Write("please enter your salary: ");
+            //decimal salary =decimal.Parse(Console.ReadLine()?? "0");
+
+            //Console.Clear();
+            //Console.Beep(324, 1000);
+
+            //Console.WriteLine("enter name is" + name);
+            //Console.WriteLine("your age is " +age);
+            //Console.WriteLine("your salary is "+ salary);
+            #endregion
+
+
+            //string x = "5";
+            //x = "ahmed";
+            //int y=int.Parse(x);
+            //Console.WriteLine(y);
+
+            //string X = "true";
+            //X = "hamda";
+            //bool flag =Convert.ToBoolean(X);
+            //Console.WriteLine(flag); //true
+
+
+
+            #endregion
+
         }
     }
 }
