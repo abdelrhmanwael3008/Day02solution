@@ -136,6 +136,39 @@ namespace Demo
 
             #endregion
 
+            #region Implicit casting vs Explicit casting 
+
+            /// int x = 8 ;
+            /// long y =/*(long)*/ x; // 1.iplcicit casting [safe casting]
+            ///Console.WriteLine(y); //8
+            ///
+
+            ///  long x = 8;
+            ///  x = 435456576567;
+            ///  int y = (int)x; //2.explicit casting [unsafe casting]
+            ///  Console.WriteLine(y);
+
+
+            ///  checked
+            /// {
+            ///     int y = (int)x; //2.explicit casting [unsafe casting]
+            /// }
+            /// unchecked
+            /// {
+            ///  Console.WriteLine(y);
+            ///}
+
+
+            //int x = 5;
+            //double y =/*(double)*/x;  //1.implicit casting [safe casting]
+            //Console.WriteLine(y);
+
+
+            //double x = 5.5;
+            //int y = (int)x; // 2. explcit casting [unsafe casting]
+
+            #endregion
+
         }
     }
 }
